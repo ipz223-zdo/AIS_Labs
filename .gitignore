@@ -1,0 +1,79 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Віртуальні середовища
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Кеш і логи
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+
+# Пакети
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Юпітер-ноутбуки (кеш)
+.ipynb_checkpoints
+
+# Тестування
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Конфігурації IDE
+.idea/
+*.iml
+
+# Інші IDE
+.vscode/
+.spyproject/
+.ropeproject/
+
+# Документація
+docs/_build/
+site/
+
+# Кеші типів / автогенерація
+mypy_cache/
+__pypackages__/
+.pyre/
+.pytype/
+
+# Архіви та тимчасові файли
+*.zip
+*.tar
+*.tar.gz
+
+# =========================
+# Якщо є вкладені проєкти Python
+# =========================
+*/__pycache__/
+*/venv/
+*/.idea/
+*/.vscode/
+*/.pytest_cache/
+*/dist/
+*/build/
+*/.mypy_cache/
